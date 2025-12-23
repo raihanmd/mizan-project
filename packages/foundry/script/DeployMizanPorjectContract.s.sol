@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import "./DeployHelpers.s.sol";
-import { MizanProject } from "../contracts/MizanProject.sol";
+import {MizanProject} from "../contracts/MizanProject.sol";
 
 /**
  * @notice Deploy script for MizanProject contract
@@ -25,6 +25,6 @@ contract DeployMizanPorjectContract is ScaffoldETHDeploy {
      *      - Export contract addresses & ABIs to `nextjs` packages
      */
     function run() external ScaffoldEthDeployerRunner {
-        new MizanProject(deployer);
+        new MizanProject();
     }
 }
