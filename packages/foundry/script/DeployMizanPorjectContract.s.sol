@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import "./DeployHelpers.s.sol";
-import {MizanProject} from "../contracts/MizanProject.sol";
+import { MizanProject } from "../contracts/MizanProject.sol";
 
 /**
  * @notice Deploy script for MizanProject contract
